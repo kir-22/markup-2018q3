@@ -1,0 +1,36 @@
+@font-face{
+  font-family: MyriadProBold;
+  src: url('../fonts/MyriadPro/MyriadPro-Bold.woff');
+}
+@font-face{
+  font-family: Lato;
+  src: url('../fonts/lato/Lato-Bold.ttf')
+}
+@font-face{
+  font-family: FA;
+  src: url('../fonts/FA/fontawesome-webfont.woff2');
+}
+@font-face{
+  font-family: LatoMedium;
+  src: url('../fonts/lato/Lato-Medium.ttf');
+}
+@font-face{
+  font-family: LatoLight;
+  src: url('../fonts/lato/Lato-Light.ttf');
+}
+@font-face{
+  font-family: LatoRegular;
+  src: url('../fonts/lato/Lato-Regular.ttf');
+}
+@font-face{
+  font-family: LatoHeavy;
+  src: url('../fonts/lato/Lato-Heavy.ttf');
+}
+@font-face{
+  font-family: LatoSemibold;
+  src: url('../fonts/lato/Lato-Semibold.ttf')
+}
+@font-face{
+  font-family: Mont;
+  src: url('../fonts/Montserrat/montserratlight.woff2');
+}
