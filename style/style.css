@@ -13,7 +13,8 @@ body{
 header{
   position: absolute;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
+  z-index: 1;
 }
 .wrapper{
   max-width: 1200px;
@@ -29,6 +30,9 @@ header{
   height: 100%;
   justify-content: start;
   border-bottom: 2px solid grey;
+}
+main, footer{
+  margin: auto;
 }
 }
 @media screen and (max-width:1199px){
@@ -82,6 +86,7 @@ header{
 /*end header*/
 main{
   max-width: 1600px;
+  position: relative;
   width: 100%;
   min-height: calc(100vh-294px);
 }
@@ -865,9 +870,10 @@ p.func-circle:hover{
 /*end function*/
 /*start footer*/
 footer{
-background: #2a2a2a url('../image/bg-footer.png');
-height: 100%;
-width: 100%;
+  max-width: 1600px;
+  background: #2a2a2a url('../image/bg-footer.png');
+  height: 100%;
+  width: 100%;
 }
 .footer-contain{
   width:100%;
